@@ -1,0 +1,658 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  height: 10vh;
+  background: hsla(255, 100%, 100%, 0);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  max-width: 90vw;
+  background: hsla(255, 100%, 100%, 0);
+}
+
+.menu {
+  display: flex;
+}
+.menu li {
+  list-style: none;
+  margin: 3vh;
+}
+.menu li a {
+  color: #006989;
+  font-size: 3vh;
+  text-decoration: none;
+}
+
+section {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+#Home {
+  background-image: url(download.png);
+  background-size: cover;
+  color: #A3BAC3;
+}
+#Home h1 {
+  font-size: 8vh;
+  position: relative;
+  bottom: 14vh;
+  left: 25vh;
+  margin: 0;
+}
+#Home p {
+  font-size: 2vh;
+  position: relative;
+  bottom: 0, 5vh;
+  margin: 0;
+  right: 25vh;
+}
+#Home .button1 {
+  position: relative;
+  top: 15vh;
+  right: 70vh;
+  background: #006989;
+  padding: 1vh;
+  font-size: 2vh;
+  border-radius: 6px;
+  border-color: black;
+  text-decoration: none;
+  color: #A3BAC3;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+#Home .button1:hover {
+  background-color: #01A7C2;
+  color: #006989;
+}
+#Home .button1 a {
+  border-radius: 6px;
+  text-decoration: none;
+  background: #006989;
+}
+#Home .button2 {
+  position: relative;
+  top: 15vh;
+  right: 65vh;
+  background: #006989;
+  padding: 1vh;
+  font-size: 2vh;
+  border-radius: 6px;
+  border-color: black;
+  text-decoration: none;
+  color: #A3BAC3;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+#Home .button2:hover {
+  background-color: #01A7C2;
+  color: #006989;
+}
+#Home .button2 a {
+  border-radius: 6px;
+  text-decoration: none;
+  background: #006989;
+}
+#Home #kleintekst1 {
+  position: relative;
+  margin: 0vh;
+  padding: 0vh;
+  right: 105vh;
+  top: 38vh;
+}
+#Home #kleintekst2 {
+  position: relative;
+  margin: 0vh;
+  padding: 0vh;
+  right: 80vh;
+  top: 35vh;
+}
+#Home #groottekst1 {
+  position: relative;
+  margin: 0vh;
+  padding: 0vh;
+  right: 119vh;
+  top: 40vh;
+}
+#Home #groottekst2 {
+  position: relative;
+  margin: 0vh;
+  padding: 0vh;
+  right: 111vh;
+  top: 40vh;
+}
+#Home #fotomain {
+  position: relative;
+  left: -30vh;
+  width: 30vh;
+  height: 65vh;
+}
+
+#About {
+  background-image: url(download\ \(3\).png);
+  background-size: cover;
+  color: #A3BAC3;
+}
+#About #abouttekst {
+  color: #A3BAC3;
+  font-size: 10vh;
+  position: relative;
+  right: -25vh;
+  bottom: 15vh;
+}
+#About #aboutmini {
+  color: #A3BAC3;
+  position: relative;
+  right: 21vh;
+  bottom: 23vh;
+}
+#About #tekst {
+  color: #A3BAC3;
+  position: relative;
+  font-size: 3vh;
+  right: 40vh;
+  bottom: -5vh;
+}
+#About #skiltekst {
+  position: relative;
+  left: 5vh;
+  bottom: 30vh;
+}
+#About .container {
+  width: 80%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  right: 20vh;
+  bottom: -7vh;
+}
+#About .naam {
+  color: #A3BAC3;
+}
+#About .skill {
+  background-color: rgb(116, 194, 92);
+  color: white;
+  padding: 1%;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 15px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+}
+#About .html {
+  width: 90%;
+}
+#About .php {
+  width: 40%;
+}
+#About .CSS {
+  width: 80%;
+}
+#About .SCSS {
+  width: 75%;
+}
+#About .Java {
+  width: 25%;
+}
+#About .SQL {
+  width: 20%;
+}
+
+#Projects {
+  background-image: url(download\ \(2\).png);
+  background-size: cover;
+  color: #A3BAC3;
+}
+#Projects #projecttekst {
+  position: absolute;
+  top: 210vh;
+  left: 83vh;
+  font-size: 6vh;
+}
+#Projects .projectfoto {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 30vh;
+  width: 60vh;
+  padding: 4vh;
+}
+#Projects .move {
+  position: relative;
+  right: 48vh;
+  top: 3vh;
+}
+#Projects .knop {
+  position: absolute;
+  background: #006989;
+  padding: 1vh;
+  font-size: 2vh;
+  border-radius: 6px;
+  border-color: black;
+  text-decoration: none;
+  color: #A3BAC3;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition-duration: 0.5s;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  margin: 10vh;
+}
+#Projects .knop:hover {
+  background-color: #01A7C2;
+  color: #006989;
+}
+
+#Contact {
+  background-image: url(download\ \(1\).png);
+  background-size: cover;
+  color: white;
+}
+#Contact #Email {
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 90%;
+  height: 40px;
+  border: 1px solid #10233f;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+#Contact .double {
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 90%;
+  height: 40px;
+  border: 1px solid #10233f;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+#Contact .contacts {
+  position: absolute;
+  top: 310vh;
+  left: 92vh;
+}
+#Contact #Message {
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 90%;
+  margin: 3px;
+  border: 1px solid #10233f;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+#Contact #submit {
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 30%;
+  height: 40px;
+  margin: 3px;
+  border: 1px solid #10233f;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+.footer {
+  padding: 2vh;
+  background: midnightblue;
+  color: black;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+}
+.footer .icon {
+  padding-left: 9vh;
+  padding-right: 8vh;
+  width: 5vh;
+  height: 5vh;
+}
+
+.lijnen {
+  background-color: black;
+  color: black;
+  margin: 1vh;
+}
+
+.button a {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #fff;
+  background: #2980b9;
+  padding: 7px 12px;
+  font-size: 18px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+  nav {
+    font-size: 2vh;
+  }
+  .navbar {
+    font-size: 2vh;
+    position: relative;
+    right: 7vh;
+  }
+  .naamnav a {
+    font-size: 4vh;
+    position: relative;
+    left: 23vh;
+  }
+  .menu {
+    font-size: 2vh;
+  }
+  .menu li {
+    font-size: 2vh;
+  }
+  #Home h1 {
+    font-size: 5vh;
+    left: 15vh;
+    top: -27vh;
+  }
+  #Home p {
+    font-size: 2vh;
+    left: 5vh;
+    top: 1vh;
+  }
+  #Home .button1 {
+    left: -10vh;
+    top: 20vh;
+  }
+  #Home .button2 {
+    left: -5vh;
+    top: 20vh;
+  }
+  #Home #kleintekst1 {
+    font-size: 2vh;
+    right: 45vh;
+    top: 32vh;
+  }
+  #Home #kleintekst2 {
+    font-size: 2vh;
+    right: 20vh;
+    top: 30vh;
+  }
+  #Home #groottekst1 {
+    font-size: 3vh;
+    right: 56vh;
+    top: 35vh;
+  }
+  #Home #groottekst2 {
+    font-size: 3vh;
+    right: 46vh;
+    top: 35vh;
+  }
+  #Home #fotomain {
+    width: 30vh;
+    height: 50vh;
+    left: -25vh;
+    bottom: 4vh;
+  }
+  #About #abouttekst {
+    font-size: 3vh;
+    left: 13vh;
+    bottom: 35vh;
+  }
+  #About #aboutmini {
+    font-size: 2vh;
+    right: 1vh;
+    bottom: 40vh;
+  }
+  #About #tekst {
+    font-size: 2vh;
+    right: 30vh;
+    bottom: 25vh;
+  }
+  #About .container {
+    width: 40%;
+    right: 27vh;
+    bottom: 9vh;
+    height: 35%;
+  }
+  #About #skiltekst {
+    font-size: 3vh;
+    left: -15vh;
+    bottom: 30vh;
+  }
+  #About .skill {
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+    font-size: 1vh;
+  }
+  #About .html {
+    width: 190%;
+  }
+  #About .php {
+    width: 140%;
+  }
+  #About .CSS {
+    width: 180%;
+  }
+  #About .SCSS {
+    width: 175%;
+  }
+  #About .Java {
+    width: 125%;
+  }
+  #About .SQL {
+    width: 120%;
+  }
+  #Projects {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #Projects #projecttekst {
+    font-size: 3vh;
+    left: 47vh;
+  }
+  #Projects .projectfoto {
+    width: 30vh;
+    height: 15vh;
+  }
+  #Projects .move {
+    position: relative;
+    right: 48vh;
+    top: 3vh;
+  }
+  #Projects .knop {
+    left: 34vh;
+    bottom: -7vh;
+  }
+  #Contact .contacts {
+    left: 42vh;
+    top: 307vh;
+  }
+  #Contact #Email {
+    width: 80%;
+  }
+  #Contact .double {
+    width: 80%;
+  }
+  #Contact #Message {
+    width: 80%;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer .icon {
+    width: 4vh;
+    height: 4vh;
+  }
+}
+@media only screen and (max-width: 425px) {
+  nav {
+    font-size: 1vh;
+    margin-left: 1vh;
+  }
+  .navbar {
+    font-size: 1vh;
+    position: relative;
+    right: 10vh;
+  }
+  .naamnav a {
+    font-size: 0vh;
+  }
+  .menu {
+    font-size: 1vh;
+  }
+  .menu li {
+    font-size: 1vh;
+  }
+  #Home h1 {
+    font-size: 4vh;
+    left: 35vh;
+    top: -30vh;
+  }
+  #Home p {
+    font-size: 1.5vh;
+    left: 25vh;
+    top: -7vh;
+  }
+  #Home .button1 {
+    left: 25vh;
+  }
+  #Home .button2 {
+    left: 35vh;
+  }
+  #Home #kleintekst1 {
+    right: 15vh;
+    top: 28vh;
+  }
+  #Home #kleintekst2 {
+    left: 10vh;
+    top: 25vh;
+  }
+  #Home #groottekst1 {
+    right: 30vh;
+    top: 30vh;
+  }
+  #Home #groottekst2 {
+    right: 23vh;
+    top: 30vh;
+  }
+  #Home #fotomain {
+    width: 25vh;
+    height: 35vh;
+    left: -40vh;
+    bottom: 15vh;
+  }
+  #About #abouttekst {
+    font-size: 3vh;
+    left: 13vh;
+    bottom: 40vh;
+  }
+  #About #aboutmini {
+    font-size: 2vh;
+    right: 1vh;
+    bottom: 45vh;
+  }
+  #About #tekst {
+    font-size: 2vh;
+    right: 18vh;
+    bottom: 10vh;
+  }
+  #About .container {
+    width: 80%;
+    right: 20vh;
+  }
+  #About #skiltekst {
+    font-size: 2vh;
+    left: -10vh;
+    bottom: 30vh;
+  }
+  #About .skill {
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+    font-size: 1vh;
+  }
+  #About .html {
+    width: 190%;
+  }
+  #About .php {
+    width: 140%;
+  }
+  #About .CSS {
+    width: 180%;
+  }
+  #About .SCSS {
+    width: 175%;
+  }
+  #About .Java {
+    width: 125%;
+  }
+  #About .SQL {
+    width: 120%;
+  }
+  #Projects {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #Projects #projecttekst {
+    font-size: 3vh;
+    left: 18vh;
+  }
+  #Projects .projectfoto {
+    width: 30vh;
+    height: 15vh;
+  }
+  #Projects .move {
+    position: relative;
+    right: 48vh;
+    top: 3vh;
+  }
+  #Projects .knop {
+    left: 34vh;
+    bottom: -7vh;
+  }
+  #Contact .contacts {
+    left: 10vh;
+    top: 305vh;
+  }
+  #Contact #Email {
+    width: 80%;
+  }
+  #Contact .double {
+    width: 80%;
+  }
+  #Contact #Message {
+    width: 80%;
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+  }
+  footer .icon {
+    width: 3vh;
+    height: 3vh;
+  }
+}/*# sourceMappingURL=style.css.map */
